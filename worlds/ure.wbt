@@ -1,0 +1,390 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  info [
+    "Unviversal Robot UR3e, UR5e and UR10e grasping cans using Robotiq 3F grippers."
+  ]
+  title "Universal Robot"
+  basicTimeStep 16
+  physicsDisableAngularThreshold 0.1
+  coordinateSystem "NUE"
+  contactProperties [
+    ContactProperties {
+      bounce 0.1
+    }
+    ContactProperties {
+      material1 "slope"
+      coulombFriction [
+        0.5
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.4176006224103473 -0.851189522164491 -0.31794043077261497 1.4695924815756893
+  position -5.299720569760315 5.48553018941993 0.7666288456376271
+  exposure 1.7
+}
+TexturedBackground {
+  texture "factory"
+}
+Floor {
+  size 21 10
+  appearance ThreadMetalPlate {
+  }
+}
+PlasticCrate {
+  translation -0.22 0.21 -4.28
+  rotation 0 1 0 1.5708
+  name "plastic crate(10)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PottedTree {
+  translation 4.659 0 -2.905
+}
+PottedTree {
+  translation 1.659 0 -4.735
+  name "potted tree(5)"
+}
+PottedTree {
+  translation 5.229 0 -4.735
+  name "potted tree(6)"
+}
+PottedTree {
+  translation -1.781 0 -4.735
+  name "potted tree(7)"
+}
+PottedTree {
+  translation 5.329 0 -2.325
+  name "potted tree(1)"
+}
+PottedTree {
+  translation 5.329 0 -1.635
+  name "potted tree(2)"
+}
+PottedTree {
+  translation 5.329 0 -0.945
+  name "potted tree(3)"
+}
+PottedTree {
+  translation 5.329 0 -0.235
+  name "potted tree(4)"
+}
+Table {
+  translation 7.787 0 -2.39
+  size 1 0.4 1
+}
+Sofa {
+  translation 9.67 0 -2.103
+  rotation 0 1 0 3.1416
+  name "sofa(1)"
+}
+Sofa {
+  translation 7.65 0 -4.403
+  rotation 0 1 0 -1.5707853071795865
+  name "sofa(3)"
+}
+Sofa {
+  translation 7.78 0.04 -0.943
+  rotation 0 -1 0 -1.5708053071795867
+  name "sofa(2)"
+}
+PanelWithTubes {
+  translation 5.7 0 -0.61
+  rotation 0 1 0 1.5708
+  name "panel with tubes(6)"
+}
+PanelWithTubes {
+  translation 5.7 0 -1.38
+  rotation 0 1 0 1.5708
+  name "panel with tubes(7)"
+}
+PanelWithTubes {
+  translation 5.7 0 -2.13
+  rotation 0 1 0 1.5708
+  name "panel with tubes(8)"
+}
+PanelWithTubes {
+  translation 5.7 0 -2.9
+  rotation 0 1 0 1.5708
+  name "panel with tubes(9)"
+}
+PanelWithTubes {
+  translation 6.28 0 0.049991
+  rotation 0 1 0 3.14159
+  name "panel with tubes(5)"
+}
+PanelWithTubes {
+  translation 10.08 0 0.050001
+  rotation 0 1 0 3.14159
+}
+PanelWithTubes {
+  translation 9.31 0 0.0499985
+  rotation 0 1 0 3.14159
+  name "panel with tubes(1)"
+}
+PanelWithTubes {
+  translation 8.55 0 0.0499966
+  rotation 0 1 0 3.14159
+  name "panel with tubes(2)"
+}
+PanelWithTubes {
+  translation 7.8 0 0.0499951
+  rotation 0 1 0 3.14159
+  name "panel with tubes(3)"
+}
+PanelWithTubes {
+  translation 7.04 0 0.0499928
+  rotation 0 1 0 3.14159
+  name "panel with tubes(4)"
+}
+PanelWithTubes {
+  translation 5.24 0 -3.17001
+  rotation 0 1 0 3.14159
+  name "panel with tubes(10)"
+}
+PanelWithTubes {
+  translation 4.47 0 -3.17001
+  rotation 0 1 0 3.14159
+  name "panel with tubes(11)"
+}
+FloorLight {
+  translation -10.147 0 4.555
+  name "floor light(4)"
+}
+FloorLight {
+  translation 10.203 0 -4.715
+}
+FloorLight {
+  translation 5.663 0 -0.045
+  name "floor light(6)"
+}
+FloorLight {
+  translation 5.273 0 -2.845
+  name "floor light(7)"
+}
+FloorLight {
+  translation 10.203 0 4.555
+  name "floor light(1)"
+}
+FloorLight {
+  translation 0.723 0 4.555
+  name "floor light(2)"
+}
+FloorLight {
+  translation -4.717 0 4.555
+  name "floor light(3)"
+}
+FloorLight {
+  translation 5.833 0 4.555
+  name "floor light(5)"
+}
+WoodenPalletStack {
+  translation -5.57 0 -4.29
+  name "wooden pallet stack(1)"
+}
+WoodenPalletStack {
+  translation -4.39 0 -4.29
+  name "wooden pallet stack(2)"
+}
+WoodenBox {
+  translation -9.22583 0.55 1.86333
+  rotation 0 1 0 4.96782
+  name "wooden box(2)"
+  size 1 1 1
+  mass 1
+}
+WoodenBox {
+  translation -9.15658 0.55 3.32841
+  rotation 0 1 0 -0.7917653071795865
+  name "wooden box(1)"
+  size 1 1 1
+  mass 1
+}
+TrafficCone {
+  translation -8.183 0 -2.52
+  name "traffic cone(8)"
+}
+TrafficCone {
+  translation -9.713 0 -1.77
+  name "traffic cone(2)"
+}
+TrafficCone {
+  translation -7.573 0 -4.19
+  name "traffic cone(1)"
+}
+OilBarrel {
+  translation -9.96 0.44 -4.33
+  name "oil barrel(5)"
+}
+OilBarrel {
+  translation -9.96 0.44 -4.33
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation -9.96 0.44 -3.66
+  name "oil barrel(2)"
+}
+OilBarrel {
+  translation -9.96 0.44 -3.01
+  name "oil barrel(3)"
+}
+OilBarrel {
+  translation -9.31 0.44 -4.33
+  name "oil barrel(4)"
+}
+OilBarrel {
+  translation -8.66 0.44 -4.33
+  name "oil barrel(6)"
+}
+OilBarrel {
+  translation -8.6235 0.32 -3.4135
+  rotation 0.8628559982596194 -0.35740699927911007 0.35740699927911007 1.71777
+  name "oil barrel(9)"
+}
+OilBarrel {
+  translation -9.47203 0.31 -2.52255
+  rotation -0.47690495958779083 -0.6215139473338426 0.6215159473336731 -2.251585307179586
+  name "oil barrel(10)"
+}
+OilBarrel {
+  translation -9.28 0.44 -3.66
+  name "oil barrel(7)"
+}
+OilBarrel {
+  translation -9.55 1.33 -4.11
+  name "oil barrel(8)"
+}
+WoodenBox {
+  translation 0.09 0.16 -0.47
+  size 0.5 0.16 0.4
+  mass 1
+}
+Can {
+  translation 0.134 0.32 -0.56
+  name "can(9)"
+  color 1 0 0
+}
+IprHd6m90 {
+  translation 0.134 0.04 -0.97
+  rotation 9.58979e-09 -1 9.58976e-09 -1.5707953071795862
+  controller "ipr_cube"
+  sensorsSlot [
+    Camera {
+      translation -0.17 0.17 6.24444e-07
+      rotation 0 1 0 1.5708
+      recognitionColors [
+        0.666667 0 0
+      ]
+    }
+  ]
+}
+SolidBox {
+  translation -0.135 0.305 0.0323
+  size 1.5 0.61 0.4
+  appearance GalvanizedMetal {
+  }
+}
+UR5e {
+  translation 0 0.61 0
+  rotation -0.5773502691896258 -0.5773502691896258 -0.5773502691896258 2.094395
+  controller "ure_can_grasper"
+  selfCollision FALSE
+  toolSlot [
+    Robotiq3fGripper {
+    }
+    DistanceSensor {
+      translation 0 0.1 0
+      rotation 0 0 1 1.570796
+    }
+  ]
+}
+ConveyorBelt {
+  translation 4.29 0 0.82
+  rotation 0 1 0 3.141592
+  size 12 0.6 0.5
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 6 3.1
+    }
+  }
+  borderHeight 0
+  speed 0.2
+}
+PlasticCrate {
+  translation -0.3 0.06 -0.88
+  name "plastic crate(1)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation -0.24 0.06 -4.44
+  name "plastic crate(5)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation -0.24 0.06 -4.76
+  name "plastic crate(6)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation -0.05 0.17 -4.76
+  name "plastic crate(7)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation -0.81 0.17 -4.76
+  name "plastic crate(8)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation 0.24 0.06 -4.63
+  rotation 0 1 0 1.5708
+  name "plastic crate(4)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation -0.71 0.06 -4.63
+  rotation 0 1 0 1.5708
+  name "plastic crate(3)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation -0.71 0.28 -4.63
+  rotation 0 1 0 1.5708
+  name "plastic crate(9)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+PlasticCrate {
+  translation 0.5 0.06 -0.89
+  name "plastic crate(2)"
+  size 0.5 0.1 0.3
+  mass 1
+}
+Can {
+  translation 2.1 0.66 0.83
+  name "can(1)"
+  color 0 0 1
+}
+Can {
+  translation 4.59 0.66 0.83
+  name "can(4)"
+  color 0 0 1
+}
+Can {
+  translation 8.59 0.66 0.83
+  name "can(2)"
+  color 1 0 0
+}
+Can {
+  translation 7.1 0.66 0.83
+  name "can(8)"
+  color 1 0 0
+}
